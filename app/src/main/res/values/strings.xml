@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FilePicker</string>
+
+    <string name="ef_selected">%d selected</string>
+    <string name="ef_selected_with_limit">%1$d/%2$d selected</string>
+    <string name="ef_msg_no_write_external_permission">Please grant storage permission to select images</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.arash.altafi.filepicker.sample3.utils.view.SquareFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foregroundGravity="center">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Image"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/view_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/ef_item_file_type_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/ef_black_alpha_aa"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="4dp"
+        android:text="GIF"
+        android:textColor="@color/ef_white"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</com.arash.altafi.filepicker.sample3.utils.view.SquareFrameLayout>
